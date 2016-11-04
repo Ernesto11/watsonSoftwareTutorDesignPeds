@@ -6,7 +6,7 @@
 <script type="text/javascript">
 function callservlet() {
 
-    var servletname='/JavaHelloWorldApp/ServletTraducir';
+    var servletname='/ServletTraducir';
 
     if(servletname== "")
         {

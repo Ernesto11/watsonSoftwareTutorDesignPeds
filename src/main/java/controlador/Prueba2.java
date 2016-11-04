@@ -2,24 +2,22 @@ package controlador;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class ServletTraducir
+ * Servlet implementation class Prueba2
  */
-@WebServlet(name = "ServletTraducir", urlPatterns = {"/ServletTraducir"})
-@MultipartConfig
-public class ServletTraducir extends HttpServlet {
+@WebServlet("/Prueba2")
+public class Prueba2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ServletTraducir() {
+    public Prueba2() {
         super();
         // TODO Auto-generated constructor stub
     }
