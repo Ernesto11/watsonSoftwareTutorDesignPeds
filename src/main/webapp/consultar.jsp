@@ -48,8 +48,6 @@ function callservlet() {
 		background: radial-gradient(center, ellipse cover, #ff0000 0%,lightgrey 75%,lightgrey 100%,#7db9e8 100%); 
 	}
 
-
-
 	@media (orientation: landscape) {
 
 		#controls { flex-direction: column; height: 100%; width: 10%;}

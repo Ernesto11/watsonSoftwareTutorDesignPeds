@@ -28,10 +28,6 @@ function callservlet() {
 }
 </script>
 
-
-
-
-
 </head>
 <body>
 
