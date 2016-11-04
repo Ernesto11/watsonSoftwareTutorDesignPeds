@@ -33,7 +33,6 @@ public class ServletConsultaTexto extends HttpServlet {
     
     public void procesarRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, SolrServerException
     {
-
     	String pregunta = request.getParameter("pregunta");
     	DTO_Consulta nuevaConsulta = new DTO_Consulta();
     	nuevaConsulta.setPreguntaTexto(pregunta);
