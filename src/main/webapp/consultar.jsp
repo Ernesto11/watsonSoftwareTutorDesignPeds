@@ -81,18 +81,17 @@ function callservlet() {
 <table style="width:100%">
   <tr>
 
-    <th HEIGHT="100"><div class="tooltip texto"><span class="tooltiptext">Consultar al tutor textualmente.</span>
-          </div>
-    <label class="right"><h3><font color="#4B9CF9">- Ingrese una pregunta:</h3></font></label></th>
+    <th HEIGHT="100">
+    <label class="right" ><h3><font color="#4B9CF9"><SPAN title="Consultar al tutor mediante una instrucci&#243n textual.">- Ingrese una pregunta:</SPAN></h3></font></label></th>
      
     <th><input type="text" placeholder="Pregunta..." required name="pregunta" id="pregunta" size="50" style="border-width: 2px; border-style: solid; font-size:12pt; color: #4B9CF9; letter-spacing : 3px;"> </th> 
   </tr>
   <tr>
   <th></th>
-  <th HEIGHT="50"><input type="submit" class="button" value="Consultar"></th> 
+  <th HEIGHT="50"><SPAN title="Procesar Consulta."><input type="submit" class="button" value="Consultar"></SPAN></th> 
   </tr>
   <tr>
-    <th HEIGHT="110"><label class="right"><h3><font color="#4B9CF9">- Consulta por voz:</h3></font></label></th>
+    <th HEIGHT="110"><label class="right"><h3><font color="#4B9CF9"><SPAN title="Consultar al tutor mediante una instrucci&#243n de voz.">- Consulta por voz:</SPAN></h3></font></label></th>
     <td><img id="record" src="images/mic128.png" onclick="toggleRecording(this);">
 </td> 
 </table>
