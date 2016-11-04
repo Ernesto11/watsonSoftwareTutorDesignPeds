@@ -185,11 +185,10 @@ font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 
 .contentBox
 {
-position:absolute;
 margin-left:175px;
 margin-top:1px;
-width:670px;
-height:410px;
+width:720px;
+height:auto;
 background-color:#160306;
 padding-bottom:20px;
 }
@@ -197,9 +196,9 @@ padding-bottom:20px;
 .contentBox .innerBox
 {
 margin-left:10px;
-position:absolute;
-width:650px;
-height:400px;
+position:relative;
+width:700px;
+height:390px;
 top:10px;
 background-image:url(contentBack.png);
 background-color:#FFFFFF;
