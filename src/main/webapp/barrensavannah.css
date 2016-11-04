@@ -187,7 +187,7 @@ font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 {
 	clear:both;
 width:720px;
-height:auto;
+height:420px;
 background-color:#160306;
 
 }
@@ -197,7 +197,7 @@ background-color:#160306;
 margin-left:10px;
 position:relative;
 width:700px;
-height:410px;
+height:390px;
 top:10px;
 background-image:url(contentBack.png);
 background-color:#FFFFFF;

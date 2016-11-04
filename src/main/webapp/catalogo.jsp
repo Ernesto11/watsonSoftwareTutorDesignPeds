@@ -21,36 +21,68 @@
         <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
         <div class="topNaviagationLink"><a href="registrar.jsp">Registrar</div>
       <div class="topNaviagationLink"><a href="consultar.jsp">Consultar</div>
-      <div class="topNaviagationLink"><a href="catalogo.jsp">Catalogo</a></div>
+      <div class="topNaviagationLink"><a href="catalogo.jsp">Cat&#225logo</a></div>
 </div>
 <div class="contentBox">
   <div class="innerBox">
         
         <form name="form"  action="ServletCatalogo"  method="post">
-    	  <p>
-          <br><label>Descargar Catalogo de preguntas: </label><br>
-    	  <br><label>Seleccione el formato del Documento: </label>
-                 <select id="comboFormatos" name="comboFormatos">
+    	 <table style="width:100%">
+  <tr>
+    <th width="170" height="50"></th>
+    <th>
+    <label class="right" ><h3><font color="#4B9CF9"> Descargar cat&#225logo de preguntas.</h3></font></label></th>
+
+  </tr>
+</table>
+<br>
+
+<table style="width:100%">
+  <tr>
+
+    <th width="250" height="55">
+    <label class="right" ><h3><font color="#4B9CF9">Formato del documento:</h3></font></label></th>
+  <th>                 <select id="comboFormatos" name="comboFormatos"><font color="#4B9CF9">
                      <option value="PDF">PDF</option>
                      <option value="TXT">TXT</option>
-                 </select> 
-          
-          <br><br>
-          <label>Seleccione una categoria: </label><br><br>
-    	  <input type="radio" name="tipo" id="tipo"  value="Programacion orientada a objetos" checked>Programacion Orientada a objetos.<br>
-          <input type="radio" name="tipo" id="tipo"  value="Notacion UML">Notacion UML para diagramas de Clase.<br>
-          <input type="radio" name="tipo" id="tipo" value="Principios de Diseno">Principios de Diseno. <br><br>
+                 </font></select> </th>
+  <tr>
+    <th width="250" height="40">
+    <label class="right" ><h3><font color="#4B9CF9">Seleccione una categor&#237a:</h3></font></label></th>
+    <td><input name="tipo" type="radio"  value="Programacion orientada a objetos" checked><font color="#4B9CF9">Programaci&#243n Orientada a objetos.</font></td> 
+  </tr>
+  <tr>
+    <td></td>
+    <td height="40"><input type="radio" name="tipo" value="Notacion UML"><font color="#4B9CF9">
+          Notaci&#243n UML para diagramas de Clase.</td>
+  </tr>
+    <tr>
+    <td></td>
+    <td><input type="radio" name="tipo" value="Principios de Diseno"><font color="#4B9CF9">Principios de Dise&#241o.</font> 
+  </tr>
+  
+</table>
+
+<table style="width:100%">
+  <tr>
+  <th width="250" height="40">
+    <label class="right" ><h3><font color="#4B9CF9">Seleccione una categor&#237a:</h3></font></label></th>
+    <th><input type="radio" name="idioma" id="idioma"  value="espanol" checked><font color="#4B9CF9">Español.</font><br></th> 
+  </tr>
+  <tr>
+    <td></td>
+    <td><input type="radio" name="idioma" id="idioma"  value="ingles"><font color="#4B9CF9">Ingles.</font></td> 
+
+  </tr>
+  <tr>
+  <td></td>
+  <td><input type="submit" class="button" value="Descargar"></td>
+</tr>
+</table>
     
     
-    
-              <label>Seleccione el idioma: </label><br><br>
-    	  <input type="radio" name="idioma" id="idioma"  value="espanol" checked>Español.<br>
-          <input type="radio" name="idioma" id="idioma"  value="ingles">Ingles.<br><br> 
-    
-    
-    	    <input type="submit" value="Descargar">
-    	    <br>
-  	    </p>                                           
+    	    
+                                     
     	  </form>
          
         
