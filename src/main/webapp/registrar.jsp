@@ -26,47 +26,80 @@ function agregarElemento()
 
 </head>
 <body>
-
 <body>
 
     <div id="page">
-        <img src="images/titulo.png" width="665" height="48" alt="titulo">
+        <img src="images/tutor.png" width="570" height="100" alt="titulo">
         <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
         <div class="topNaviagationLink"><a href="registrar.jsp">Registrar</div>
       <div class="topNaviagationLink"><a href="consultar.jsp">Consultar</div>
       <div class="topNaviagationLink"><a href="catalogo.jsp">Catalogo</a></div>
 </div>
-    <div id="mainPicture">
-    	<div class="picture"></div>
-    </div>
-        <div class="contentBox">
-    	<div class="innerBox">
+<div class="contentBox">
+  <div class="innerBox">
         
         <form name="form"  action="ServletRegistro"  method="post">
     	  <p>
-    	  <br><label>Seleccione una categoria: </label><br>
-    	  <input type="radio" name="tipo" value="Programacion orientada a objetos" checked>Programacion Orientada a objetos.<br>
-          <input type="radio" name="tipo" value="Notacion UML">Notacion UML para diagramas de Clase.<br>
-          <input type="radio" name="tipo" value="Principios de Diseno">Principios de Diseno. <br><br>
-    
-          <br><label>Ingrese la pregunta: </label><input id="pregunta" name="pregunta" type="text" size="80"   required><br>
-          <br><label>Ingrese la respuesta:<br> </label><input id="respuesta" name="respuesta" size="80" style="width:600px;height:90px"  type="text" required><br><br><br>
-   	      </p>
-    	  <p>
-    	    <input type="submit" value="Registrar">
-    	    <br>
+          <div class="tooltip texto">
+                <br><label><H2><font color="#4B9CF9">Seleccione una categor&#237a:</font></H2></label>
+                <span class="tooltiptext">Debe seleccionar una categor&#237a asociada la pregunta.</span>
+          </div>
+           
+          <table style="width:100%">
+<br><br><br>
+    <td><font color="#FFFFFF">.......</font><br> </td>
+    <td><input name="tipo" type="radio"  value="Programacion orientada a objetos" checked><font color="#4B9CF9">Programaci&#243n Orientada a objetos.</font><br></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><font color="#FFFFFF">.......</font><br> </td>
+    <td><input type="radio" name="tipo" value="Notacion UML"><font color="#4B9CF9">
+          Notaci&#243n UML para diagramas de Clase.<br></td></font>
+    <td></td>
+  </tr>
+  <tr>
+    <td><font color="#FFFFFF">.......</font><br> </td>
+    <td><input type="radio" name="tipo" value="Principios de Diseno"><font color="#4B9CF9">Principios de Dise&#241o.</font> <br><br></td>
+    <td></td>
+  </tr>
+</table>
+           
+<div style="position: absolute; left: 30; top: 155;">
+    <label class="right"><h2><font color="#4B9CF9">Ingrese una pregunta:</h2></font></label>
+</div>
+<div style="position: absolute; left: 30; top: 185;">         
+<input type="text" placeholder="pregunta" required name="pregunta" id="pregunta" size="70" style="border-width: 2px; border-style: solid; font-size:12pt; color: #4B9CF9; letter-spacing : 3px;"> 
+</div>
+
+<div style="position: absolute; left: 30; top: 220;">
+    <label class="right"><h2><font color="#4B9CF9">Ingrese una respuesta:</h2></font></label>
+</div> 
+  <div style="position: absolute; left: 30; top: 260;">
+  <textarea name="respuesta" id="respuesta" cols="72" rows="5" placeholder="Respuesta..." required style="overflow:auto; border: 2px solid #4B9CF9;"></textarea>
+         
+
+
+
+</div class="tooltip texto">
+  <div style="position: absolute; left: 280; top: 380;">
+    <input type="submit" class="button" value="Registrar">
+    </div> 
+    <span class="tooltiptext">Presione para registrar.</span>
+</div> 
+    	    
+  
   	    </p>                                           
-    	  </form>
+  </form>
          
          
-    	  <div id="footer">tutor cognitivo</div>
+    	  <div id="footer">&nbsp;</div>
 <!-- Please leave this in place after all of your content - thanks :) -->
         
         
         
 
         
-        </div>
+</div>
 
 
 
