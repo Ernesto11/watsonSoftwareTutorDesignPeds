@@ -64,35 +64,32 @@ function agregarElemento()
   </tr>
 </table>
            
-<div style="position: absolute; left: 30; top: 155;">
+<div style="position: absolute; left: 30; top: 150;">
     <label class="right"><h2><font color="#4B9CF9">Ingrese una pregunta:</h2></font></label>
 </div>
-<div style="position: absolute; left: 30; top: 185;">         
+<div style="position: absolute; left: 30; top: 180;">         
 <input type="text" placeholder="pregunta" required name="pregunta" id="pregunta" size="70" style="border-width: 2px; border-style: solid; font-size:12pt; color: #4B9CF9; letter-spacing : 3px;"> 
 </div>
 
-<div style="position: absolute; left: 30; top: 220;">
+<div style="position: absolute; left: 30; top: 215;">
     <label class="right"><h2><font color="#4B9CF9">Ingrese una respuesta:</h2></font></label>
 </div> 
-  <div style="position: absolute; left: 30; top: 260;">
+  <div style="position: absolute; left: 30; top: 235;">
   <textarea name="respuesta" id="respuesta" cols="72" rows="5" placeholder="Respuesta..." required style="overflow:auto; border: 2px solid #4B9CF9;"></textarea>
          
 
 
 
-</div class="tooltip texto">
-  <div style="position: absolute; left: 280; top: 380;">
+
+  <div style="position: absolute; left: 230; top: 120;">
     <input type="submit" class="button" value="Registrar">
     </div> 
-    <span class="tooltiptext">Presione para registrar.</span>
-</div> 
+
+
     	    
   
   	    </p>                                           
   </form>
-         
-         
-    	  <div id="footer">&nbsp;</div>
 <!-- Please leave this in place after all of your content - thanks :) -->
         
         
