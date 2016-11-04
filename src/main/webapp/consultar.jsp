@@ -77,21 +77,34 @@ function callservlet() {
         <div class="contentBox">
     	<div class="innerBox">
     	  <form name="form"  action="ServletConsultaTexto"  method="post" >
-          
-          
-    	    <p><br>
-            </p>
-    	    <p>Ingrese la pregunta: </p><br>
-            <p>
-             <input type="text" id="pregunta" name="pregunta" size="59" maxlength="100" class="form-control" placeholder="pregunta" required><div id="controls">
-		<img id="record" src="images/mic128.png" onclick="toggleRecording(this);">
-	</div>
+          <br>
+<table style="width:100%">
+  <tr>
 
-    	    <p>
-    	    <input type="submit" value="Consultar"><br><br>                                           
+    <th HEIGHT="100"><div class="tooltip texto"><span class="tooltiptext">Consultar al tutor textualmente.</span>
+          </div>
+    <label class="right"><h3><font color="#4B9CF9">- Ingrese una pregunta:</h3></font></label></th>
+     
+    <th><input type="text" placeholder="Pregunta..." required name="pregunta" id="pregunta" size="50" style="border-width: 2px; border-style: solid; font-size:12pt; color: #4B9CF9; letter-spacing : 3px;"> </th> 
+  </tr>
+  <tr>
+  <th></th>
+  <th HEIGHT="50"><input type="submit" class="button" value="Consultar"></th> 
+  </tr>
+  <tr>
+    <th HEIGHT="110"><label class="right"><h3><font color="#4B9CF9">- Consulta por voz:</h3></font></label></th>
+    <td><img id="record" src="images/mic128.png" onclick="toggleRecording(this);">
+</td> 
+</table>
+          
+  
+            
+			</div>
+
+ 
+    	                                              
     	  </form>
 
-    	  <div id="footer">Tutor Cognitivo</div>
 <!-- Please leave this in place after all of your content - thanks :) -->
         
         
