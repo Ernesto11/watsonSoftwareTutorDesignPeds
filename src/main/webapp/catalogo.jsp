@@ -71,7 +71,7 @@
   </tr>
   <tr>
     <td></td>
-    <td><input type="radio" name="idioma" id="idioma"  value="ingles"><font color="#4B9CF9">Ingles.</font></td> 
+    <td><input type="radio" name="idioma" id="idioma"  value="ingles"><font color="#4B9CF9">Ingl&#233s.</font></td> 
 
   </tr>
   <tr>
