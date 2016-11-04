@@ -17,17 +17,14 @@
 <body>
 
     <div id="page">
-        <img src="images/titulo.png" width="665" height="48" alt="titulo">
+        <img src="images/tutor.png" width="570" height="120" alt="titulo">
         <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
         <div class="topNaviagationLink"><a href="registrar.jsp">Registrar</div>
       <div class="topNaviagationLink"><a href="consultar.jsp">Consultar</div>
       <div class="topNaviagationLink"><a href="catalogo.jsp">Catalogo</a></div>
 </div>
-    <div id="mainPicture">
-    	<div class="picture"></div>
-    </div>
-        <div class="contentBox">
-    	<div class="innerBox">
+<div class="contentBox">
+  <div class="innerBox">
         
         <form name="form"  action="ServletCatalogo"  method="post">
     	  <p>
@@ -56,8 +53,7 @@
   	    </p>                                           
     	  </form>
          
-         
-    	  <div id="footer">tutor cognitivo</div>
+        
 <!-- Please leave this in place after all of your content - thanks :) -->
         
         
