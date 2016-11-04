@@ -65,7 +65,7 @@ border-bottom:none;
 #mainPicture
 {
 clear:both;
-width:670px;
+width:600px;
 height:345px;
 background-color:#160306;
 }
@@ -77,10 +77,29 @@ width:650px;
 height:325px;
 top:10px;
 margin-left:10px;
-background-image:url(mainImage.jpg);
+background-image:url(mainImag.jpg);
 background-repeat:no-repeat;
 }
 
+#mainPicture .picture1
+{
+position:relative;
+width:150px;
+height:150px;
+top:10px;
+margin-left:700px;
+background-repeat:no-repeat;
+}
+
+#mainPicture .picture2
+{
+position:relative;
+width:100px;
+height:100px;
+top:10px;
+margin-left:700px;
+background-repeat:no-repeat;
+} 
 #headerTitle
 {
 position:relative;
@@ -198,3 +217,5 @@ text-align: center;
 p {text-align: left;}
 
 
+.picrure1 {
+}
