@@ -60,7 +60,7 @@ function callservlet() {
         <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
         <div class="topNaviagationLink"><a href="registrar.jsp">Registrar</div>
       <div class="topNaviagationLink"><a href="consultar.jsp">Consultar </div>
-        <div class="topNaviagationLink"><a href="catalogo.jsp">Catalogo</a></div>
+        <div class="topNaviagationLink"><a href="catalogo.jsp">Cat&#225logo</a></div>
 </div>
 <div class="contentBox">
   <div class="innerBox">
@@ -69,6 +69,15 @@ function callservlet() {
     	  <%
     	  String pregunta = DTO_Consulta.getPreguntaTexto();
     	  %>
+    	  
+    	      	 <%
+            ArrayList<String> respuestas = DTO_Consulta.getRespuestas();
+    	    String respuesta = "";
+    	    for(int i = 0; i<respuestas.size();i++)
+    	    {
+    	    	respuesta += i+1+"- "+respuestas.get(i)+"\n";
+    	    }
+        %> 
  
 <table style="width:100%">
   <tr>
@@ -114,14 +123,7 @@ function callservlet() {
 
 
     	  
-    	 <%
-            ArrayList<String> respuestas = DTO_Consulta.getRespuestas();
-    	    String respuesta = "";
-    	    for(int i = 0; i<respuestas.size();i++)
-    	    {
-    	    	respuesta += i+1+"- "+respuestas.get(i)+"\n";
-    	    }
-        %>     
+    
     	  </form>
 <!-- Please leave this in place after all of your content - thanks :) -->
  
