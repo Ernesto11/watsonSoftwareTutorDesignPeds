@@ -184,8 +184,8 @@ font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 
 .contentBox
-{
-margin-left:175px;
+{	
+margin-left:350px;
 margin-top:1px;
 width:720px;
 height:auto;
@@ -198,7 +198,7 @@ padding-bottom:20px;
 margin-left:10px;
 position:relative;
 width:700px;
-height:390px;
+height:410px;
 top:10px;
 background-image:url(contentBack.png);
 background-color:#FFFFFF;

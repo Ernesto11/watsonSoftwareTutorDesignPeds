@@ -79,9 +79,8 @@ function agregarElemento()
   </tr>
   <tr>
     <th><font color="#FFFFFF">.</font><br></th>
-    <th><div class="tooltip texto"><input type="submit" class="button" value="Registrar"></th>
-                    <span class="tooltiptext">Presione para registrar.</span>
-          </div>
+    <th><input type="submit" class="button" value="Registrar"></th>
+          
   </tr>
 
 </table>

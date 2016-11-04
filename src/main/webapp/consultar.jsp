@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -29,14 +29,13 @@ function callservlet() {
 	<script src="js/recorder.js"></script>
 	<script src="js/main.js"></script>
 	<style>
-	html { overflow: hidden; }
+
 	body { 
 		font: 14pt Arial, sans-serif; 
 		background: lightgrey;
 		display: flex;
 		flex-direction: column;
-		height: 100vh;
-		width: 100%;
+
 		margin: 0 0;
 	}
 
@@ -66,20 +65,20 @@ function callservlet() {
 </head>
 <body>
 
-<body id="body">
+<body>
     <div id="page">
-        <img src="images/titulo.png" width="665" height="48" alt="titulo">
+        <img src="images/tutor.png" width="570" height="120" alt="titulo">
         <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
         <div class="topNaviagationLink"><a href="registrar.jsp">Registrar</div>
-      <div class="topNaviagationLink"><a href="consultar.jsp">Consultar </div>
+      <div class="topNaviagationLink"><a href="consultar.jsp">Consultar</div>
       <div class="topNaviagationLink"><a href="catalogo.jsp">Catalogo</a></div>
 </div>
-    <div id="mainPicture">
-    	<div class="picture"></div>
-    </div>
+
         <div class="contentBox">
     	<div class="innerBox">
     	  <form name="form"  action="ServletConsultaTexto"  method="post" >
+          
+          
     	    <p><br>
             </p>
     	    <p>Ingrese la pregunta: </p><br>
