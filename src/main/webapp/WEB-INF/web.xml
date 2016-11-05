@@ -15,7 +15,7 @@
 	
 	<servlet-mapping>
 		<servlet-name>ServletTraducir</servlet-name>
-		<url-pattern>/JavaHelloWorldApp/ServletTraducir</url-pattern>
+		<url-pattern>/ServletTraducir</url-pattern>
 	</servlet-mapping>
 
 
