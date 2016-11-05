@@ -14,11 +14,13 @@ import logicaDeNegocio.Voz;
 /**
  * Servlet implementation class ServletTraducir
  */
-
+@WebServlet("/ServletTraducir")
 public class ServletTraducir extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
     public ServletTraducir() {
         super();
         // TODO Auto-generated constructor stub
