@@ -71,7 +71,7 @@ public class ServletConsultaVoz extends HttpServlet {
     
     public void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
     {
-    	
+
     	
     	Part filePart = request.getPart("audioP");
     	File archivoWav = crearArchivoWav(filePart, request.getSession().getServletContext().getRealPath("/") );
@@ -86,6 +86,8 @@ public class ServletConsultaVoz extends HttpServlet {
     	nuevaConsulta.setPreguntaTexto(consultaVoz.getContenidoPregunta());
     	
         request.setAttribute("DTO_Consulta", nuevaConsulta);
+
+    	
         request.getRequestDispatcher("respuestaConsulta.jsp").forward(request, response);
   
      }

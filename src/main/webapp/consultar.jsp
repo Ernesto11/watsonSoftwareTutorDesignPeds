@@ -63,7 +63,7 @@ function callservlet() {
 </head>
 <body>
 
-<body>
+<body id="body">
     <div id="page">
         <img src="images/tutor.png" width="570" height="120" alt="titulo">
         <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
