@@ -12,7 +12,7 @@
 <script type="text/javascript">
 function callservlet() {
 
-    var servletname='/JavaHelloWorldApp/ServletTraducir1';
+    var servletname='/JavaHelloWorldApp/ServletTraducir';
 
     if(servletname== "")
         {
@@ -38,7 +38,7 @@ function callservlet() {
 <script type="text/javascript">
 function callservlet() {
 
-    var servletname='/JavaHelloWorldApp/ServletTraducir1';
+    var servletname='/JavaHelloWorldApp/ServletTraducir';
 
     if(servletname== "")
         {
