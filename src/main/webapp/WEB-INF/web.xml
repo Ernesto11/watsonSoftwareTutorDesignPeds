@@ -17,7 +17,6 @@
 		<servlet-name>ServletTraducir</servlet-name>
 		<url-pattern>/JavaHelloWorldApp/ServletTraducir</url-pattern>
 	</servlet-mapping>
-	
 	<servlet>
 		<description>VOZ</description>
 		<display-name />
@@ -33,6 +32,5 @@
 		<servlet-name>ServletConsultaVoz</servlet-name>
 		<url-pattern>/JavaHelloWorldApp/ServletConsultaVoz</url-pattern>
 	</servlet-mapping>
-
 
 </web-app>
