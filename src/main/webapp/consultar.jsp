@@ -21,8 +21,6 @@ function callservlet() {
         }
 }
 </script>
-
-
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<script src="js/audiodisplay.js"></script>
