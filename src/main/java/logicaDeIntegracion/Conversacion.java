@@ -137,17 +137,9 @@ public class Conversacion implements IConversacion {
 	    public ArrayList<String> consultarPregunta(String pPregunta) throws SolrServerException, IOException{
 	    	ArrayList<String> respuestas = new ArrayList<String>();
 	    	
-	    	clienteSolr = Conversacion.getSolrClient(servicio.getSolrUrl(CLUSTERID));	
-	    	
-	    	SolrQuery query = new SolrQuery(pPregunta);
-	    	QueryResponse response = clienteSolr.query(NOMBRECOLECCION, query);
-	    	SolrDocumentList results = response.getResults();
-	    	for (int i = 0; i < results.size(); ++i) {
-	    		respuestas.add(results.get(i).get("body").toString().replace("[", "").replace("]", ""));
-	    	}
-	    	
+	    	clienteSolr = Conversacion.getSolrClient(servicio.getSolrUrl(CLUSTERID));	    	
 	    
-	    	/*SolrQuery query = new SolrQuery().setQuery(pPregunta);
+	    	SolrQuery query = new SolrQuery().setQuery(pPregunta);
 	             
 	    	QueryResponse response = clienteSolr.query(NOMBRECOLECCION, query);
 	    	 SolrDocumentList results = response.getResults();
@@ -157,7 +149,7 @@ public class Conversacion implements IConversacion {
 	    	      {
 	    	    	  respuestas.add(results.get(i).get("body").toString().replace("[", "").replace("]", ""));
 	    	      }
-	    	    }*/
+	    	    }
 	    	    return respuestas;
 	        }
 	    	
