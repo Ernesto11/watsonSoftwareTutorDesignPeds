@@ -14,8 +14,7 @@ import logicaDeNegocio.Voz;
 /**
  * Servlet implementation class ServletTraducir
  */
-@WebServlet(name = "ServletTraducir", urlPatterns = {"/ServletTraducir"})
-@MultipartConfig
+@WebServlet("/ServletTraducir")
 public class ServletTraducir extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
