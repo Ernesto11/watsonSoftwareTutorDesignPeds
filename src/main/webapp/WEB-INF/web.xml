@@ -26,7 +26,7 @@
 	
 	<servlet-mapping>
 		<servlet-name>ServletConsultaVoz</servlet-name>
-		<url-pattern>/JavaHelloWorldApp/consultaVoz</url-pattern>
+		<url-pattern>/JavaHelloWorldApp/ServletConsultaVoz</url-pattern>
 	</servlet-mapping>
 	
 
