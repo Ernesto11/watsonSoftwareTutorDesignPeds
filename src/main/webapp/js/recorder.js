@@ -131,7 +131,7 @@ DEALINGS IN THE SOFTWARE.
 	  data.append('audioP', blob);
 
 	  var xhr = new XMLHttpRequest();
-	  xhr.open('POST', '/JavaHelloWorldApp/ServletConsultaVoz', true);
+	  xhr.open('POST', '/ServletConsultaVoz', true);
 	  xhr.onload = function () 
 	  {
 		  document.getElementById("body").innerHTML = this.responseText;
