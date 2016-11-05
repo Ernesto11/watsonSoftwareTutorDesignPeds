@@ -10,7 +10,6 @@
 
 </head>
 <body>
-
 <body>
     <div id="page">
         <img src="images/titulo.png" width="665" height="100" alt="titulo">
