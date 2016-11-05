@@ -20,18 +20,14 @@
 	
 	<servlet>
 		<description>VOZ</description>
-		<display-name />
-		<icon>
-			<small-icon />
-			<large-icon />
-		</icon>
 		<servlet-name>ServletConsultaVoz</servlet-name>
 		<servlet-class>controlador.ServletConsultaVoz</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>ServletConsultaVoz</servlet-name>
-		<url-pattern>/JavaHelloWorldApp/ServletConsultaVoz</url-pattern>
+		<url-pattern>/JavaHelloWorldApp/consultaVoz</url-pattern>
 	</servlet-mapping>
+	
 
 </web-app>
