@@ -33,7 +33,8 @@ function agregarElemento()
         <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
         <div class="topNaviagationLink"><a href="registrar.jsp">Registrar</div>
       <div class="topNaviagationLink"><a href="consultar.jsp">Consultar</div>
-      <div class="topNaviagationLink"><a href="catalogo.jsp">Catalogo</a></div>
+      <div class="topNaviagationLink"><a href="catalogo.jsp">Cat&#225logo</div>
+      <div class="topNaviagationLink"><a href="acercaDe.jsp">Acerca De</a></div>
 </div>
 <div class="contentBox">
   <div class="innerBox">
@@ -79,9 +80,8 @@ function agregarElemento()
   </tr>
   <tr>
     <th><font color="#FFFFFF">.</font><br></th>
-    <th><div class="tooltip texto"><input type="submit" class="button" value="Registrar"></th>
-                    <span class="tooltiptext">Presione para registrar.</span>
-          </div>
+    <th><input type="submit" class="button" value="Registrar"></th>
+          
   </tr>
 
 </table>
