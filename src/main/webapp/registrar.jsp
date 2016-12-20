@@ -1,110 +1,133 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="utf-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<meta http-equiv="Content-Type" /> 
+<!DOCTYPE html>
+<html >
 <head>
-<title>Registrar</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="barrensavannah.css" />
 
-<script type="text/javascript">
-function agregarElemento()
-{
-	var option = document.createElement("option");
-	option.text =document.getElementById('respuesta').value;
-	option.value =document.getElementById('respuesta').value;
-	option.selected = "selected";
-	var select = document.getElementById("respuestas");
-	select.appendChild(option);
-	document.getElementById('respuesta').value="";
-	alert("Respuesta asociada a la pregunta");
-}
-</script>
-
-
-
-</head>
-<body>
-<body>
-
-    <div id="page">
-        <img src="images/tutor.png" width="570" height="120" alt="titulo">
-        <div class="topNaviagationLink"><a href="index.jsp">Principal</div>
-        <div class="topNaviagationLink"><a href="registrar.jsp">Registrar</div>
-      <div class="topNaviagationLink"><a href="consultar.jsp">Consultar</div>
-      <div class="topNaviagationLink"><a href="catalogo.jsp">Cat&#225logo</div>
-      <div class="topNaviagationLink"><a href="acercaDe.jsp">Acerca De</a></div>
-</div>
-<div class="contentBox">
-  <div class="innerBox">
-        
-        <form name="form"  action="ServletRegistro"  method="post">
-    	  <p>
-          <div class="tooltip texto">
-                <br><label><H2><font color="#4B9CF9">- Seleccione una categor&#237a:</font></H2></label>
-                <span class="tooltiptext">Debe seleccionar una categor&#237a asociada a la pregunta.</span>
-          </div>
-           
-          <table style="width:100%">
-<br><br><br>
-    <td><font color="#FFFFFF">.</font><br> </td>
-    <td><input name="tipo" type="radio"  value="Programacion orientada a objetos" checked><font color="#4B9CF9">Programaci&#243n Orientada a objetos.</font><br></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><font color="#FFFFFF">........</font><br> </td>
-    <td><input type="radio" name="tipo" value="Notacion UML"><font color="#4B9CF9">
-          Notaci&#243n UML para diagramas de Clase.<br></td></font>
-    <td></td>
-  </tr>
-  <tr>
-    <td><font color="#FFFFFF">.</font><br> </td>
-    <td><input type="radio" name="tipo" value="Principios de Diseno"><font color="#4B9CF9">Principios de Dise&#241o.</font> <br><br></td>
-    <td></td>
-  </tr>
-</table>
-
-<table style="width:100%">
-  <tr>
-    <th><label class="right"><h3><font color="#4B9CF9">- Ingrese una pregunta:</h3></font></label></th>
-    <th><input type="text" placeholder="Pregunta..." required name="pregunta" id="pregunta" size="50" style="border-width: 2px; border-style: solid; font-size:12pt; color: #4B9CF9; letter-spacing : 3px;"> </th> 
-
-  </tr>
-  
-  <tr>
- 
-    <th><label class="right"><h3><font color="#4B9CF9">- Ingrese una respuesta:</h3></font></label></th>
-    <td>  <textarea name="respuesta" id="respuesta" cols="42" rows="7" placeholder="Respuesta..." required style="overflow:auto; color: #4B9CF9; border: 2px solid #4B9CF9; font-size:12pt;"></textarea></td> 
-
-  </tr>
-  <tr>
-    <th><font color="#FFFFFF">.</font><br></th>
-    <th><input type="submit" class="button" value="Registrar"></th>
-          
-  </tr>
-
-</table>
+  <meta charset="UTF-8">
+  <title>Registrar</title>
+          <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
        
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="css/custom-styles.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/font-awesome-ie7.css">
 
-    	    
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+
   
-  	    </p>                                           
-  </form>
-<!-- Please leave this in place after all of your content - thanks :) -->
-        
-        
-        
+</head>
 
+<body>
+
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="row-fluid">
+                    
+                        <div class="site-name">
+                            <h1>Administraci&#243n de Tecnolog&#237a de Informaci&#243n.</h1>
+                        </div>
+                    
+                    
+
+
+                    
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+            <div class="menu">
+                
+                        <div class="navbar">
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <i class="fw-icon-th-list"></i>
+                            </a>
+                            <div class="nav-collapse collapse">
+                                <ul class="nav">
+                                    <li class="active"><a href="index.jsp">Principal</a></li>
+                                    <li><a href="registrar.jsp">Registrar</a></li>
+                                    <li><a href="consultar.jsp">Consultar</a></li>
+                                    <li><a href="catalogo.jsp">Cat&#225logo</a></li>
+                                    <li><a href="acercaDe.jsp">Acerca De</a></li>
+                                    
+
+                                    
+                                    
+                                </ul>
+                            </div><!--/.nav-collapse -->
+                        </div>
+						<div class="mini-menu">
+            <label>
+          <select class="selectnav">
+            <option value="#" selected="">Principal</option>
+            <option value="registrar.jsp">Registrar</option>
+            <option value="#">Consultar</option>
+            <option value="#">Catálogo</option>
+            <option value="#">Acerca de</option>
+          </select>
+          </label>
+          </div>
+                    
+            </div>
+            </div>            
+            
+            
+       <div class="container bg-white">
+                <div class="row-fluid">
+                    <div class="span12 ">
+                        <div class="main-caption">
+                            <h1 style="color:#25bbdf;">Tutor Cognitivo: Curso de Dise&#241o de Software.</h1>
+                        </div>
+                    </div>
+                 </div>
+
+  <div class="container1">
+
+    <form id="signup" action="ServletRegistro"  method="post">
+
+        <div class="header">
         
+            <h3 style="color:#25bbdf;">Registrar Pregunta</h3>
+            
+            
+            
+        </div>
+        
+        <div class="sep"></div>
+
+        <div class="inputs">
+        
+           
+
+            <input name="pregunta" id="pregunta" size="100" type="text" placeholder="Pregunta" required autofocus />
+        
+             <textarea name="respuesta" id="respuesta" cols="42" rows="7" placeholder="Respuesta" required autofocus></textarea>
+            
+            <h5><font color="#25bbdf">Seleccione una categor&#237a:</h5>
+            
+            <input name="tipo" type="radio"  value="Programacion orientada a objetos" checked>Programaci&#243n Orientada a objetos.<br>
+            <input type="radio" name="tipo" value="Notacion UML">Notaci&#243n UML para diagramas de Clase.<br>
+            <input type="radio" name="tipo" value="Principios de Diseno">Principios de Dise&#241o.<br>
+  
+            
+ 
+            <input id="submit" type="submit" class="button" value="Registrar">
+        
+        </div>
+
+    </form>
+
 </div>
-
-
-
-
-
-
-    </div>
-        
+</div>
+​
+  
+  
 </body>
 </html>

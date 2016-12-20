@@ -36,18 +36,12 @@
                     
                     
 
-                        <div class="cust-form">
-                            <form id="custom-search-form" class="form-search form-horizontal pull-right">
-                                
-                                    <input type="text" class="search-query">
-                                    <button type="submit" class="btn"><i class="fw-icon-search"></i></button>
-                                
-                            </form>
-                        </div>
+
                     
                     </div>
                 </div>
             </div>
+            
             <div class="container">
             <div class="menu">
                 
@@ -72,15 +66,11 @@
 						<div class="mini-menu">
             <label>
           <select class="selectnav">
-            <option value="#" selected="">Home</option>
-            <option value="#">About</option>
-            <option value="#">→ Another action</option>
-            <option value="#">→ Something else here</option>
-            <option value="#">→ Another action</option>
-            <option value="#">→ Something else here</option>
-            <option value="#">Services</option>
-            <option value="#">Work</option>
-            <option value="#">Contact</option>
+            <option value="#" selected="">Principal</option>
+            <option value="registrar.jsp">Registrar</option>
+            <option value="#">Consultar</option>
+            <option value="#">Cat�logo</option>
+            <option value="#">Acerca de</option>
           </select>
           </label>
           </div>
